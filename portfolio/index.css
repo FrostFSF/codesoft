@@ -204,13 +204,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* 
 .personal-website {
   background-image: linear-gradient(270deg,rgba(43, 185, 171, 0.456),rgba(20, 58, 53, 0.456)),url("./images/travel-png.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .resume-content > .resume-description {
   width: 70vw;
