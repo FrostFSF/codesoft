@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@400;500;600;700&family=Bebas+Neue&family=Comic+Neue&family=Heebo:wght@400;500;700;900&family=Inter:wght@300;500;700&family=Noto+Sans:wght@300;400;600;700&family=Poppins:wght@400;600&family=Quicksand:wght@400;600;700&family=Satisfy&family=Shadows+Into+Light&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+.navigation-section {
+  background-color: rgb(27, 27, 27);
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-logo {
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.nav-content {
+  position: absolute;
+  right: 40px;
+}
+
+.nav-content a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 35px;
+  padding: 8px 25px;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-content > a:hover {
+  background-color: whitesmoke;
+  color: rgb(32, 32, 32);
+}
+
+.header-section {
+  background-color: rgba(255, 204, 178, 0.847);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.header-section .header-img {
+  background-color: rgb(27, 97, 97);
+  /* background-image: url("./images/me.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  width: 400px;
+  height: 400px;
+}
+
+.header-section .header-content {
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(61, 61, 61);
+}
+
+.header-content .header-title {
+  font-size: 100px;
+}
+
+.header-content .header-subtitle {
+  font-size: 40px;
+}
+
+.about-section {
+  background-color: rgb(28, 28, 28);
+  padding: 50px 0px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content,
+.skill-content,
+.project-content,
+.resume-content,
+.contact-content {
+  height: auto;
+  width: 70vw;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.about-content .about-title,
+.skill-content .skill-title,
+.project-content .project-title,
+.resume-content .resume-title,
+.contact-content .contact-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
+
+.about-content .about,
+.skill-content .skill-description,
+.resume-content .resume-description,
+.contact-content .contact-description {
+  width: 40vw;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.about-content .about > p {
+  margin-top: 20px;
+}
+
+.body-section {
+  background-color: rgb(23, 102, 95);
+  padding: 50px 0px;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-section .skill-content {
+  width: fit-content;
+}
+
+.skill-shorts {
+  width: 400px;
+  height: auto;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-shorts .skill {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: rgb(38, 38, 38);
+  height: fit-content;
+  padding: 5px 20px;
+  margin: 10px 10px;
+  background: rgba(255, 255, 255, 0.794);
+  box-shadow: 0 8px 32px 0 rgba(235, 235, 235, 0.37);
+  border-radius: 26px;
+}
+
+.project-content, .resume-content, .contact-content {
+  width: 1150px;
+  margin: auto;
+}
+
+.project-highlights {
+  background-color: rgb(25, 110, 103);
+  height: 50vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project {
+  background-color: rgba(21, 96, 89, 0.456);
+  width: 350px;
+  height: 90%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  scale: 1.03;
+}
+
+.to-do-list {
+  background-image: linear-gradient(270deg,rgba(43, 185, 171, 0.456),rgba(20, 58, 53, 0.456)),url("./images/to-do-list.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resume-content > .resume-description {
+  width: 70vw;
+}
+
+.resume-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-download {
+  position: relative;
+  right: 200px;
+}
+
+.resume-download > a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.283);
+}
+
+
+.footer-section {
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: whitesmoke;
+  padding: 20px 0px;
+}
+
+.contact-newsletter {
+  width: 700px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-newsletter div input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 20px;
+  margin: 5px 0px;
+  font-size: 16px;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+}
+
+.contact-newsletter div input::placeholder {
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact-newsletter .newsletter-description {
+  font-size: 16px;
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: bold;
+  width: 90%;
+  height: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+  resize: none;
+}
+
+.contact-newsletter .newsletter-description::placeholder {
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.contact-newsletter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.contact-newsletter div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-newsletter div div button {
+  border: none;
+  padding: 15px 30px;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 10px;
+}
